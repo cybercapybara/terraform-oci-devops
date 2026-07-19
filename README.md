@@ -8,7 +8,7 @@ pipelines, and artifacts. Project events are published to a Notifications topic.
 
 ```hcl
 module "devops_project" {
-  source = "github.com/cybercapybara/terraform-oci-devops"
+  source = "github.com/moveeeax/terraform-oci-devops"
 
   compartment_id        = var.compartment_id
   name                  = "prod-devops"
